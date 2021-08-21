@@ -59,6 +59,9 @@ public class AlgorithmComparison {
             case QUICK:
                 QuickSort.quickSort(arr2, 0, arr2.length - 1);
                 break;
+            case RADIX:
+                Radix.radixSort(arr2, 0, arr2.length - 1);
+                break;
         }
 
         long endTime = System.nanoTime();
